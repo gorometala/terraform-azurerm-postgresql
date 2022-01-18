@@ -8,15 +8,6 @@ output "server_fqdn" {
   value       = module.postgresql.server_fqdn
 }
 
-/* output "administrator_login" {
-  value = var.administrator_login
-}
-
-output "administrator_password" {
-  value     = var.administrator_password
-  sensitive = true
-} */
-
 output "server_id" {
   description = "The resource id of the PostgreSQL server"
   value       = module.postgresql.server_id
